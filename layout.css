@@ -1,10 +1,49 @@
 
-.circular-img {
-	width: 10px;
-	height: 10px;
-	object-fit: cover;
-	border-radius: 50%;
-	border: 3px solid #333;
-	box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+body {
+	background-color: aliceblue;
+}
+
+
+title {
+	color: rgb(255, 255, 255);
+	text-align: center;
+	font-size: 40px;
+	margin-top: 20px;
+} 
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	gap: 24px;
+	background-color: orange;
+	border-radius: 10px;
+	align-items: center;
+}
+nav ul li {
 	display: inline-block;
 }
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 18px;
+	border-radius: 5px;
+	transition: background 0.2s, color 0.2s;
+}
+h3 {
+	text-align: left;
+	color: darkblue;
+}
+
+h4 {
+	text-align: left;
+	color: darkblue;
+}
+h5 {
+	text-align: left;
+	color: rgb(139, 21, 0);
+}
+	
